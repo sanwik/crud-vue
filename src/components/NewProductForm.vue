@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="new-product-container">
     <h4>Add new product</h4>
     <form>
       <div>
@@ -79,6 +79,9 @@ export default {
 </script>
 
 <style>
+.new-product-container {
+  text-align: left;
+}
 .addNew {
   width: 100px;
   margin-left: 5px;
